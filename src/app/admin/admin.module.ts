@@ -7,7 +7,7 @@ import {UserPartsModule} from '../shared/user-parts/user-parts.module';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 @NgModule({
-  declarations: [, ProfileComponent],
+  declarations: [],
   imports: [
     CommonModule,
     AdminRoutingModule,
