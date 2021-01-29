@@ -32,6 +32,7 @@ export class AppComponent {
   get isSignedIn(): boolean {
     return AuthService.isSignedIn;
   }
+
   signout() {
     // supprimer les données de sessions et retourner à la page de login
     this.router.navigate(["/auth/signin"]).then(() => {
